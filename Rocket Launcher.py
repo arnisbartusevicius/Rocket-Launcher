@@ -2,8 +2,10 @@
 # ARNIS#9033 (DISCORD)
 
 import os
-import time
+import subprocess
 import configparser
+import psutil
+
 
 # Read configuration file
 config = configparser.ConfigParser()
@@ -41,11 +43,15 @@ with open('config.ini', 'w') as configfile:
 
 # Launch Bakkesmod.exe
 if bakkesmod_exe_dir:
-    os.startfile(bakkesmod_exe_dir)
+    bakkesmod_process = subprocess.Popen(bakkesmod_exe_dir)
 
-# Wait 2 seconds
-time.sleep(2)
+# Check if the BakkesMod.exe process is running
+bakkesmod_running = False
+for proc in psutil.process_iter():
+    if proc.name() == "BakkesMod.exe":
+        bakkesmod_running = True
+        break
 
-# Launch Rocket League®.url
-if rocket_league_url_dir:
+# Launch Rocket League®.url if BakkesMod.exe is running
+if bakkesmod_running and rocket_league_url_dir:
     os.startfile(rocket_league_url_dir)
