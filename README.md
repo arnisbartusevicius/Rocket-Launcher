@@ -1,9 +1,32 @@
-# rocket-launcher
-A program that launches BakkesMod for you and when it is done launching, launches Rocket League automatically
 
-To run:
+# Rocket Launcher (Not explosive)
 
-Make sure Rocket Launcher.py and Config.ini are in the same folder or destination.
-Then you can simply run "Rocket Launcher.py" and the software will do the rest for you.
+Rocket Launcher is a program which scans your pc for the Bakkesmod and Rocket League and launches both of them. This is for the lazy people who don't want to click Bakkesmod before launching Rocket League. I made this due to my Bakkesmod auto-launch not working.
 
-Please note: The software may be slow on the first launch but after that it's a lot faster. You will also require to have Rocket League as a desktop shortcut for this program to work.
+
+## Features
+
+- No Setup Required
+- Optimized
+- Doesn't explode unlike a conventional rocket launcher
+
+
+## Feedback
+
+If you have any feedback, please reach out to me at arnisbartusevicius@proton.me
+
+
+## Authors
+
+- [@arnisbartusevicius](https://github.com/arnisbartusevicius)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+
+## 🚀 About Me
+Python Developer
+
+
+## 🛠 Skills
+Python, Adobe Photoshop, Premiere Pro and Illustrator
+
