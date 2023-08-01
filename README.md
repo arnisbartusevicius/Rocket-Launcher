@@ -6,9 +6,9 @@ Rocket Launcher is a program which scans your pc for the Bakkesmod and Rocket Le
 
 ## Features
 
-- No Setup Required
-- Optimized
-- Doesn't explode unlike a conventional rocket launcher
+- **No Setup** Required
+- **Optimized**
+- **Doesn't Explode** Unlike A Conventional Rocket Launcher
 
 
 ## Feedback
