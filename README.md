@@ -13,7 +13,9 @@ Rocket Launcher is a program which scans your pc for the Bakkesmod and Rocket Le
 
 ## Feedback
 
-If you have any feedback, please reach out to me at arnisbartusevicius@proton.me
+If you have any feedback, please reach out to me at arnisbartusevicius@proton.me 
+
+Alternatively you can reach out to me on [Discord](https://discord.com/): @_arnis
 
 
 ## Authors
